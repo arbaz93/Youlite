@@ -26,9 +26,9 @@ export default function VideoDetail({  }) {
 
   return (
     <Box minHeight='95vh'>
-      <Stack direction={{xs: 'column', md: 'row'}}>
+      <Stack direction='column'>
         <Box flex='1'>
-          <Box sx={{ width: '100%', position: 'sticky', top: '86px'}}>
+          <Box>
             <ReactPlayer url={`https://www.youtube.com/watch?v=${id}`} className="react-player" controls/>
             <Typography color='#FFF' variant='h5' fontWeight='bold' p={2}>{title}</Typography>
             <Stack direction='row' justifyContent='space-between' sx={{ color: '#FFF'}} py={1} px={2}>

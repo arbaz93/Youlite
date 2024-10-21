@@ -6,10 +6,10 @@ import { CheckCircle } from '@mui/icons-material'
 
 export default function VideoCard({ video: { id: { videoId, playlistId }, snippet }, video }) {
   return (
-    <Card sx={{ width: { xs: '100%', sm: '358px', md: "320px" }, boxShadow: "none", borderRadius: 0 }}>
+    <Card sx={{ width: '100%', boxShadow: "none", borderRadius: 0 }}>
     <Link to={videoId || playlistId ? `/video/${videoId || playlistId}` : `/video/cV2gBU6hKfY` }>
       <CardMedia image={snippet?.thumbnails?.high?.url || demoThumbnailUrl} alt={snippet?.title} 
-        sx={{ width: { xs: '100%', sm: '358px'}, height: 180 }} 
+        sx={{ width: '100%', height: 180 }} 
       />
     </Link>
     <CardContent sx={{ backgroundColor: "#1E1E1E", height: '106px' }}>

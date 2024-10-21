@@ -4,7 +4,7 @@ import { categories } from '../utils/categories'
 
 export default function SideBar({ selectedCategory, setSelectedCategory }) {
   return (
-    <Stack direction='row' sx={{ overflowY: 'auto', height: { sx: 'auto', md: '95%' }, flexDirection: { md: 'column' } }}>
+    <Stack direction='row' height='auto' overflow='auto'>
       {categories.map(category => {
         return (
           <button key={category.name} onClick={() => {setSelectedCategory(category.name)}} className='category-btn' style={{backgroundColor: (category.name === selectedCategory) && '#fc1503', color: 'white'}}>
