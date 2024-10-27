@@ -25,7 +25,7 @@ export default function VideoDetail() {
     fetchFromAPI(`search?part=snippet&relatedToVideoId=${id}&type=video`)
       .then(data => {
         setVideos(data.items); 
-        setNextVideos(data.items[3])
+        setNextVideos(data.items[0])
       })
   }, [id])
 
