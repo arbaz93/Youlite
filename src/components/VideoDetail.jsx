@@ -33,7 +33,7 @@ export default function VideoDetail() {
     if (playNextVidRef.current === 'true') {
       setIsVideoEnd(true)
       const intervalId = setTimeout(() => {
-        location.href = `http://localhost:5173/video/${nextVideos.id.videoId}`
+        location.href = `https://youlite-tube.netlify.app/video/${nextVideos.id.videoId}`
       }, 5000)
       intervalRef.current = intervalId;
     }

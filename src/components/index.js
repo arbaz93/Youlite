@@ -10,4 +10,5 @@ export { default as VideoCard } from './VideoCard'
 export { default as ChannelCard } from './ChannelCard'
 export { default as NextVideo } from './NextVideo'
 export { default as ToggleSwitch } from './ToggleSwitch'
+export { default as ErrorDetail } from './ErrorDetail'
 
