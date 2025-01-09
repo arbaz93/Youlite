@@ -39,7 +39,7 @@ To run this project locally, follow these steps:
    cd YouLite-Tube
 3. Install the dependencies:
    ```bash  
-   npm install --legacy-peer-deps:
+   npm install --legacy-peer-deps
 4. Start the development server: 
    ```bash  
    npm run dev
