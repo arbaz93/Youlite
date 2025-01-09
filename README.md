@@ -48,4 +48,4 @@ To run this project locally, follow these steps:
    VITE_YOUTUBE_V3_RAPID_API_KEY=[API_KEY]
 ## You can find API_KEY from [here](https://rapidapi.com/ytdlfree/api/youtube-v31?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=referral&utm_campaign=DevRel).
 - You can subscribe to test for free
-![Rapid API Youtube V3 Screenshot](link-to-your-app-screenshot.png)  
+![Rapid API Youtube V3 Screenshot](https://github.com/arbaz93/Youlite/blob/main/rapidapi.png)  
