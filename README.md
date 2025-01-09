@@ -46,6 +46,7 @@ To run this project locally, follow these steps:
 5. Create a .env file in your project directory and assign a varirable with the Api key: 
    ```bash  
    VITE_YOUTUBE_V3_RAPID_API_KEY=[API_KEY]
+Your application should now be running on http://localhost:5173.
 ## Getting API_KEY
 1. You can find API_KEY from [here](https://rapidapi.com/ytdlfree/api/youtube-v31?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=referral&utm_campaign=DevRel).
 2. Subscribe to Test to get free API_KEY
