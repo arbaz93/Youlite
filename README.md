@@ -1,6 +1,6 @@
 # YouLite Tube  
 
-![YouLite Tube Screenshot](link-to-your-app-screenshot.png)  
+![YouLite Tube Screenshot](https://github.com/arbaz93/Youlite/blob/main/portfolio-1y.png)  
 
 ## Overview  
 
