@@ -33,7 +33,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/your-username/YouLite-Tube.git
+   git clone https://github.com/arbaz93/Youlite.git
 2. Navigate to the project directory: 
    ```bash  
    cd YouLite-Tube
@@ -48,4 +48,14 @@ To run this project locally, follow these steps:
    VITE_YOUTUBE_V3_RAPID_API_KEY=[API_KEY]
 ## You can find API_KEY from [here](https://rapidapi.com/ytdlfree/api/youtube-v31?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=referral&utm_campaign=DevRel).
 - You can subscribe to test for free
-![Rapid API Youtube V3 Screenshot](https://github.com/arbaz93/Youlite/blob/main/rapidapi.png)  
+![Rapid API Youtube V3 Screenshot](https://github.com/arbaz93/Youlite/blob/main/rapidapi.png)
+
+## Contributing 
+
+if you'd like to contribute to this project, feel free to fork the repository and submit a pull request. 
+
+## Acknowledgements
+
+- Inspiration from JS Mastery
+- React.js [documentation](https://legacy.reactjs.org/docs/getting-started.html).  
+- Material UI [documentation](https://mui.com/material-ui/getting-started/).  
